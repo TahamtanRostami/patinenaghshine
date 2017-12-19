@@ -35,8 +35,3 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/sass,jekyll,windows
-_includes/columns.html
-_includes/hello.html
-_jadefiles/hello.jade
-_includes/hello.html
-_jadefiles/hello.jade
