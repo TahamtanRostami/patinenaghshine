@@ -38,3 +38,5 @@ $RECYCLE.BIN/
 _includes/columns.html
 _includes/hello.html
 _jadefiles/hello.jade
+_includes/hello.html
+_jadefiles/hello.jade
