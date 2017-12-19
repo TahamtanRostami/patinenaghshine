@@ -1,0 +1,43 @@
+section.tools
+  height: 510px
+  background:
+    image: url(/assets/img/pigment.jpg)
+    size: 1200px
+    position: bottom 0
+
+  .parallax-bg
+    position: absolute
+
+  .container
+    height: 235px
+    background: #efefef
+    border: 5px solid #d1d1d1
+    font-size: 16px
+
+    p
+      margin: auto
+
+  .flex-dir
+    padding: 5%
+    display: flex
+    flex-direction: row-reverse
+    justify-content: center
+
+  .full-width-line
+    border-bottom: 1px solid #a1a1a1
+    width: 100%
+
+@media only screen and (max-width: 990px)
+  section.tools
+    height: 450px
+    .container
+      height: 200px
+@media only screen and (max-width: 600px)
+  section.tools
+    height: 430px
+    .container
+      height: auto
+@media only screen and (max-width: 436px)
+  section.tools
+    height: 400px
+    background-size: 1000px

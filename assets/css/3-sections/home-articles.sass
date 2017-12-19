@@ -1,0 +1,50 @@
+section.articles
+  transition: all 0.5s ease-in-out
+  width: 100%
+  background:
+    image: url(../img/pen.jpg)
+    repeat: no-repeat
+    position: left center
+    size: 920px
+
+  .border
+    min-height: 570px
+    padding: 25px 51px
+    background-color: rgb(217, 217, 217)
+    border: 5px solid
+    width: 390px
+    float: right
+    transition: all 0.5s ease-in-out
+
+  h3,h4
+    border-bottom-style: solid
+    padding-bottom: 20px
+    border-width: 1px
+    margin: 0 0 10px 0
+
+  ul,h5
+    direction: rtl
+
+@media only screen and (max-width: 990px)
+  section.articles
+    height: 400px
+    .w3-hide-large
+      margin-top: 10px !important
+    .border
+      min-height: 400px
+      width: 300px
+
+@media only screen and (max-width: 724px)
+  section.articles
+    .border
+      width: 210px
+      padding: 10px 20px
+
+@media only screen and (max-width: 600px)
+  section.articles
+    height: auto
+    .border
+      background-color: rgba(217, 217, 217, 0.4) !important
+      width: 240px
+      min-height: 180px
+      padding: 10px 20px

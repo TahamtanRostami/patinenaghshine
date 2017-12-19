@@ -1,5 +1,33 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Patine Naghshine
 ---
-{% include hello.html %}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="assets/js/functions.js"></script>
+<script src="assets/js/migrate.js"></script>
+<script src="assets/js/jquery.mmenu.js"></script>
+
+
+<div class="home-wrap">
+
+    {% include header.html %}
+
+    <div class="home-sections w3-main">
+        <div class="w3-hide-large"></div>
+
+            {% include section-about.html %}
+            {% include section-service.html %}
+            {% include section-projects.html %}
+            {% include section-process.html %}
+            {% include section-video.html %}
+            {% include section-tutorial.html %}
+            {% include section-tools.html %}
+            {% include section-articles.html %}
+            {% include section-contact.html %}
+    <footer>
+        {% include footer.html %}
+    </footer>
+
+    </div>
+</div>

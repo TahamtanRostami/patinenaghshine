@@ -1,0 +1,42 @@
+section.contact#contact
+    .w3-row-padding.w3-content
+        .w3-col.w3-mobile.sides-col.w3-right-align.w3-hide-small
+            h1 با ما در تماس باشید
+            p.w3-hover-text-green 0912 449 78 29
+                i.fa.fa-phone-square
+            p
+            a(href="https://t.me/patinehnaghshine").w3-hover-text-blue @patinehnaghshine
+                i.fa.fa-telegram
+            p
+            a(href="https://instagram.com/patineh.naghshineh").w3-hover-text-purple @patineh.naghshineh
+                i.fa.fa-instagram
+            p
+            a(href="#").w3-hover-text-red n3rostami@gmail.com
+                i.fa.fa-envelope-o
+
+        .w3-col.w3-mobile.sides-col.w3-center.w3-hide-large.w3-hide-medium.col-adjust
+            h2 با ما در تماس باشید
+            p.w3-hover-text-green 0912 449 78 29
+                i.fa.fa-phone-square
+            p
+            a(href="https://t.me/patinehnaghshine", target='_blank').w3-hover-text-blue @patinehnaghshine
+                i.fa.fa-telegram
+            p
+            a(href="https://instagram.com/patineh.naghshineh", target='_blank').w3-hover-text-purple @patineh.naghshineh
+                i.fa.fa-instagram
+            p
+            a(href="#").w3-hover-text-red n3rostami@gmail.com
+                i.fa.fa-envelope-o
+        .full-width-line.w3-row.w3-hide-large.w3-hide-medium
+        .w3-col.centered-line.w3-hide-small
+        .w3-col.w3-mobile.sides-col.w3-content
+            p.w3-hide-small در این بخش می توانید به وسیله ی یکی راههای ارتباطی موجود با ما همراه باشید. همچنین برای مشاوره رایگان و سفارش از شماره های ذیل استفاده نمایید .
+            form(action='/user', method='POST')
+                p
+                    input(type="text", name="name", placeholder="نام شما").w3-input.w3-animate-input.w3-hover-light-gray
+                p
+                    input(type="email", name="email", placeholder="ایمیل شما").w3-input.w3-animate-input.w3-hover-light-gray
+                p
+                    textarea(name="message", placeholder= "پیام شما").w3-input.w3-animate-input.w3-hover-light-gray
+                p.w3-center
+                    input(type="submit", value="ارسال").w3-input.w3-hover-light-gray.btn

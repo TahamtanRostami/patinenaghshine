@@ -1,0 +1,51 @@
+section.tutorial
+  transition: all 0.5s ease-in-out
+  width: 100%
+  background:
+    image: url(../img/pn-logo.png)
+    repeat: no-repeat
+    position: -30px 40%
+    size: 920px
+
+  .border
+    min-height: 570px
+    padding: 25px 51px
+    background-color: rgba(255, 255, 255, 0.8)
+    border: 5px solid
+    width: 390px
+    float: right
+    transition: all 0.5s ease-in-out
+
+    h3,h4
+      border-bottom-style: solid
+      padding-bottom: 20px
+      border-width: 1px
+      margin: 0 0 10px 0
+
+@media only screen and (max-width: 990px)
+  section.tutorial
+    height: 400px
+    .w3-hide-large
+      margin-top: 10px !important
+    .border
+      min-height: 400px
+      width: 300px
+
+@media only screen and (max-width: 724px)
+  section.tutorial
+    .border
+      width: 210px
+      padding: 10px 20px
+
+@media only screen and (max-width: 600px)
+  section.tutorial
+    height: 180px
+    .border
+      width: 240px
+      min-height: 180px
+      padding: 10px 20px
+
+@media only screen and (max-width: 436px)
+  section.tutorial
+    .border
+      background-color: rgba(255, 255, 255, 0.4) !important

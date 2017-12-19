@@ -1,0 +1,87 @@
+section.video
+  transition: all 0.5s ease-in-out
+  background-image: linear-gradient(45deg, #ed145b, #690123)
+  .logo-bg
+    background:
+      image: url(../img/aparat.png)
+      position: -30px 40%
+      size: 850px
+      repeat: no-repeat
+  ul
+    direction: rtl
+  .border
+    height: 570px
+    padding: 25px 51px
+    background-color: rgba(255, 255, 255, 0.8)
+    border: 5px solid
+    width: 390px
+    transition: all 0.5s ease-in-out
+
+    h3,h4
+      border-bottom-style: solid
+      padding-bottom: 20px
+      border-width: 1px
+      margin: 0 0 10px 0
+
+  h5
+    direction: rtl
+
+  .vid-content
+    position: relative
+
+  .video-strip
+    position: absolute
+    top: 0
+    width: 100%
+    height: 100%
+    background:
+      image: url(../img/video-strip.png)
+      position: center 0
+      repeat: repeat-y
+      size: 40%
+
+
+@media only screen and (max-width: 990px)
+  section.video
+    min-height: 400px
+    .w3-hide-large
+      margin-top: 10px !important
+    .border
+      height: 400px
+      width: 300px
+    .video-container
+      height: 400px
+
+@media only screen and (max-width: 724px)
+  section.video
+    .border
+      width: 210px
+      padding: 10px 20px
+
+@media only screen and (max-width: 600px)
+  section.video
+    min-height: 300px
+    .border
+      height: auto
+      padding: 10px 20px
+    p
+      margin-bottom: 10px
+
+    .w3-button
+      margin-bottom: 10px
+
+    .flex-video
+      transform: scale(0.9)
+    .video-container
+      height: 300px
+
+  @media only screen and (max-width: 436px)
+    section.video
+      min-height: 200px
+      .video-container
+        height: 200px
+      .border
+        background-color: rgba(255, 255, 255, 0.6) !important
+      p
+        margin-bottom: 10px
+

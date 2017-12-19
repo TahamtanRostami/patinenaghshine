@@ -1,0 +1,119 @@
+section.contact
+  transition: all 500ms ease-in-out
+  height: 500px
+  background:
+    color: #d9d9d9
+
+  .w3-hover-light-gray,
+  .w3-hover-text-blue,
+  .w3-hover-text-green,
+  .w3-hover-text-purple,
+  .w3-hover-text-red
+    transition: all 500ms ease-in-out
+
+  .w3-hide-large
+    margin-top: 0 !important
+
+  span
+    margin-bottom: 20px
+
+  h1
+    padding-left: 300px
+    padding-bottom: 30px
+    line-height: 0.9
+    font-weight: 900
+    font-size: 60px
+
+  ul
+    display: flex
+    flex-direction: column
+
+  .sides-col
+    width: 49%
+    padding: 30px 30px 0 30px
+
+
+  .centered-line
+    background-color: #48b5a3
+    max-width: 5px
+    min-height: 600px
+    padding: 0
+
+
+  .full-width-line
+    border-bottom: 5px solid #48b5a3
+    width: 100%
+    margin-bottom: 20px
+
+  .fa
+    margin-top: 14px
+    padding-left: 7px
+
+  p.w3-hover-text-green
+    font-size: 17px
+
+  p,a
+    margin: 0
+    color: #666
+    font-weight: 900
+    font-size: 16px
+  a
+    font-family: sans-serif
+    font-weight: 600
+
+  p.w3-hide-small
+    padding-bottom: 30px
+    text-align: right
+    direction: rtl
+
+input,textarea
+  width: 95% !important
+  text-align: right
+  color: #919191
+  background-color: #ebebeb
+  border-bottom: 3px solid #48b5a3 !important
+  margin-bottom: 20px
+  height: 50px
+
+textarea
+  transition: all 500ms ease-in-out !important
+  resize: none
+  height: 230px !important
+
+input:focus
+  background-color: #fff
+
+.btn
+  width: 45% !important
+
+@media only screen and (max-width: 1278px)
+  section.contact
+    h1
+      padding-left: 230px
+
+@media only screen and (max-width: 990px)
+  section.contact
+    h1
+      padding-left: 140px
+      font-size: 50px
+
+@media only screen and (max-width: 600px)
+  section.contact
+    padding-top: 0
+    .sides-col
+      padding: auto
+      width: 100% !important
+    input
+      width: auto
+    h2.w3-hide-large
+      font-size: 40px
+    ul.w3-hide-large,h2.w3-hide-large
+      margin: 20px 0 20px 0 !important
+    .w3-hide-large
+      padding-bottom: 10px
+    .col-adjust
+      padding-top: 0
+    .full-width-line
+      margin-bottom: 0
+    textarea
+      height: 180px !important

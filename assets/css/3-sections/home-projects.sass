@@ -1,0 +1,110 @@
+section.projects
+  transition: all 0.5s ease-in-out
+  background:
+    color: #ababab
+    image: url(../img/insta.png)
+    repeat: no-repeat
+    position: -30px 40%
+    size: 850px
+
+  .border
+    height: 570px
+    padding: 25px 51px
+    background-color: rgba(255, 255, 255, 0.8)
+    border: 5px solid
+    width: 390px
+    transition: 0.5s ease-in-out
+
+    h3,h4
+      border-bottom-style: solid
+      padding-bottom: 20px
+      border-width: 1px
+      margin: 0 0 10px 0
+
+  .project-info
+    margin-top: -30px
+    width: 740px
+    padding: 20px
+    background-color: rgba(54,46,30,0.9)
+    p,em
+      color: lightgray
+      margin: 0
+      font-size: 15px
+      direction: rtl
+    em
+      font-weight: 400
+
+  img
+    width: 740px
+    transition: all 0.5s ease-in-out
+
+  .project-container
+    height: 570px
+    display: flex
+    flex-direction: column
+    justify-content: center
+  p
+    margin-bottom: 7px
+  a
+    color: lightgray
+
+@media only screen and (max-width: 1278px)
+  section.projects
+    .project-info
+      margin-top: -50px
+      max-width: 500px
+    img
+      width: 500px
+
+
+@media only screen and (max-width: 1016px)
+  section.projects
+    .project-info
+      margin-top: -80px
+      max-width: 400px
+    img
+      width: 400px
+
+@media only screen and (max-width: 990px)
+  section.projects
+    min-height: 400px
+    .w3-hide-large
+      margin-top: 10px !important
+    .border
+      height: 400px
+      width: 300px
+  .project-info
+    margin-top: 0 !important
+
+  .project-container
+    height: 400px !important
+
+@media only screen and (max-width: 724px)
+  section.projects
+    .border
+      width: 210px
+      padding: 10px 20px
+
+@media only screen and (max-width: 600px)
+  section.projects
+    .border
+      width: 240px
+      height: 180px
+      padding: 10px 20px
+
+@media only screen and (max-width: 436px)
+  section.projects
+    min-height: 250px
+    .border
+      background-color: rgba(255, 255, 255, 0.4) !important
+
+    .project-info
+      max-width: 280px
+      padding: 10px
+      p
+        font-size: 13px
+    img
+      width: 280px
+
+    .project-container
+      max-height: 330px

@@ -1,0 +1,23 @@
+.video-container
+  height: 570px
+  display: flex
+  flex-direction: column
+  justify-content: center
+  transition: all 0.5s ease-in-out
+
+.flex-video
+  height: 0
+  overflow: hidden
+  padding-bottom: 75%
+  position: relative
+  transform: scale(0.7)
+
+.flex-video iframe,
+.flex-video object,
+.flex-video embed,
+.flex-video video
+  height: 100%
+  width: 100%
+  top: 0
+  right: 0
+  position: absolute
