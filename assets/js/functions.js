@@ -10,7 +10,7 @@ function parallax() {
 }
 
 $(window).scroll(function () {
-   aparatVidScroll();
+    aparatVidScroll();
 });
 
 function aparatVidScroll() {
